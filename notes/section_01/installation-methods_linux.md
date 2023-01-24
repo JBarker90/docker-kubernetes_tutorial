@@ -1,4 +1,4 @@
-## Installation Methods for Docker on Linux
+# Installation Methods for Docker on Linux
 
 These steps listed below are for Ubuntu Desktop LTS. You can find the full official docs and steps for other Linux distributions here:
 
@@ -9,7 +9,7 @@ These steps listed below are for Ubuntu Desktop LTS. You can find the full offic
 
 - Debian: https://docs.docker.com/install/linux/docker-ce/debian/
 
-1. Installation Steps
+### 1. Installation Steps
 	- Create Dockerhub account
 		- https://hub.docker.com/signup
 
