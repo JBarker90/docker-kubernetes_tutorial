@@ -1,6 +1,6 @@
-## Overriding Default Commands
+# Overriding Default Commands
 
-1. To run a Docker container, you can use `docker run`
+### 1. To run a Docker container, you can use `docker run`
 
 ```
 docker run <image_name>  
@@ -37,7 +37,7 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
-2. While running a Docker image, you can use override commands
+### 2. While running a Docker image, you can use override commands
 
 - This is essentially executing a specific command after the image runs.
 
