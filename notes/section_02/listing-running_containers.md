@@ -1,6 +1,6 @@
-## Listing Running Containers
+# Listing Running Containers
 
-1. We can use `docker ps`
+### 1. We can use `docker ps`
 
 - This will list all running containers. 
 
@@ -35,7 +35,7 @@ CONTAINER ID   IMAGE     COMMAND             CREATED          STATUS          PO
 8bf692298ad9   busybox   "ping google.com"   21 seconds ago   Up 17 seconds             upbeat_bhabha
 ```
 
-2. If we want to list all containers ever run, we can use the `--all` flag
+### 2. If we want to list all containers ever run, we can use the `--all` flag
 
 - This will list all containers ever run regardles of them currently running
 
