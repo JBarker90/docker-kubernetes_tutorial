@@ -1,6 +1,6 @@
-## Building a Dockerfile
+# Building a Dockerfile
 
-1. First create a docker compose file called `Dockerfile`
+### 1. First create a docker compose file called `Dockerfile`
 
 ```
 jonathan@dockerhost-02:~/docker-kubernetes_tutorial/redis-image$ ll
@@ -12,7 +12,7 @@ drwxrwxr-x 4 jonathan jonathan   5 Jan 24 16:57 ../
 
 NOTE: The Docker requires that the "D" is capitalized in `Dockerfile`
 
-2. Add some code that specifies a base image and other dependencies
+### 2. Add some code that specifies a base image and other dependencies
 
 ```
 # Use an existing docker image as a base 
@@ -25,7 +25,7 @@ RUN apk add --update redis
 CMD [ "redis-server" ]
 ```
 
-3. Make sure you are in the working directory with the `Dockerfile` and build the image.
+### 3. Make sure you are in the working directory with the `Dockerfile` and build the image.
 
 - This can be done using `docker build`
 
@@ -62,7 +62,7 @@ Removing intermediate container 6a43850b751a
 Successfully built b7dcf29f7cb6
 ```
 
-4. Then run the build.
+### 4. Then run the build.
 
 - This can be done with `docker run`
 
