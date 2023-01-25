@@ -1,6 +1,6 @@
-## Creating Docker Images
+# Creating Docker Images
 
-1. Brief Overview of Dockerfile Build Flow
+### 1. Brief Overview of Dockerfile Build Flow
 
 - Step 1: Specify a base image
 
