@@ -1,6 +1,6 @@
-## Dealing With Stopped Containers
+# Dealing With Stopped Containers
 
-1. Restarting Stopped Containers:
+### 1. Restarting Stopped Containers:
 
 - Sometimes a container will be exited and shutdown for various reasons. 
 
@@ -26,7 +26,7 @@ hi there
 
 NOTE: The `-a` in `docker start -a <ImageID>` will tell the docker client to print the output of the comand to the terminal
 
-2. Removing Stopped Containers
+### 2. Removing Stopped Containers
 
 - You can use the `system prune` option in Docker CLI
 
