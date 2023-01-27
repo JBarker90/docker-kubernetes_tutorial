@@ -1,6 +1,6 @@
-## Rebuilds With Cache
+# Rebuilds With Cache
 
-1. Docker Build using Cache
+### 1. Docker Build using Cache
 
 - The main performance gains from rebuilting images by using cache.
 - To show this, we can add a new RUN line in our dockerfile that does the following 
@@ -23,7 +23,7 @@ RUN apk add --update gcc
 CMD [ "redis-server" ]
 ```
 
-2. Seeing Cache during build process
+### 2. Seeing Cache during build process
 
 - Now, after adding the new dependency we can rerun `docker build` 
 
@@ -66,7 +66,7 @@ Removing intermediate container e76d22654012
 Successfully built e6a706c13e6a
 ```
 
-3. Docker will not be able to reuse cache if the Order in build changes
+### 3. Docker will not be able to reuse cache if the Order in build changes
 
 - To showcase this, we can switch around the order of the GCC and Redis dependencies. Doing this the cache will be invalidated and forced to rebuild it's cache.
 
