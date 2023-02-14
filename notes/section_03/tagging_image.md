@@ -1,6 +1,6 @@
-## Tagging an Image
+# Tagging an Image
 
-1. Tagging an image by Name
+### 1. Tagging an image by Name
 
 - When we run an image from a Dockerfile build, we typically run using the container ID
 
@@ -56,7 +56,7 @@ Successfully built 7cc767f07a59
 Successfully tagged jbarker09/redis:latest
 ```
 
-2. How to run the new Build
+### 2. How to run the new Build
 
 - You can run it using `docker run`
 
