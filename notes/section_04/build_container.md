@@ -44,7 +44,7 @@ drwxrwxr-x 6 jonathan jonathan   7 Feb 14 17:14 ../
 
 ### 2. Flow of Docker File
 
-![Flow-Dockerfile.png](:/13992dd7a654426794c0323b30c2d048)
+![Flow-Dockerfile.png](https://github.com/JBarker90/docker-kubernetes_tutorial/blob/main/notes/section_04/Flow-Dockerfile.png)
 
 - Template:
 	- Specify a base image
