@@ -7,7 +7,7 @@
 - Docker containers will have their own isolated networking
 
 
-![Container_networking.png](:/37685e00f4df482da4a3a9b4554aba6a)
+![Container_networking.png](https://github.com/JBarker90/docker-kubernetes_tutorial/blob/main/notes/section_04/Container_networking.png)
 
 NOTE: This is only talking about Incoming network requests. 
 
@@ -44,7 +44,7 @@ CONTAINER ID   IMAGE                 COMMAND                  CREATED          S
 
 
 
-![Browser-loads.png](:/aa8e136b112341efbd5bead5c42879c1)
+![Browser-loads.png](https://github.com/JBarker90/docker-kubernetes_tutorial/blob/main/notes/section_04/Browser-loads.png)
 
 - The ports on the source and destination do NOT need to match. So you can map which ever local port you need
 
@@ -60,5 +60,5 @@ eb03ef656c96   jbarker09/simpleweb   "docker-entrypoint.s…"   38 seconds ago  
 
 
 
-![Browser-loads_port5000.png](:/baeb801b96254b208ac7d042e9533330)
+![Browser-loads_port5000.png](https://github.com/JBarker90/docker-kubernetes_tutorial/blob/main/notes/section_04/Browser-loads_port5000.png)
 
