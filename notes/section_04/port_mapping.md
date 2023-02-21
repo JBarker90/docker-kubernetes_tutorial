@@ -1,6 +1,6 @@
-## Container Port Mapping
+# Container Port Mapping
 
-1. Build from Previous project is listening on port `8080`. But we cannot connect through Browser
+### 1. Build from Previous project is listening on port `8080`. But we cannot connect through Browser
 
 - To resolve this issue, we need to explicitly map the local port of 8080 to the container port 8080
 
@@ -11,7 +11,7 @@
 
 NOTE: This is only talking about Incoming network requests. 
 
-2. Mapping Ports
+### 2. Mapping Ports
 
 - Port mapping is only done when starting up the container using `docker run`
 
