@@ -1,6 +1,6 @@
-## How We Are Going to Build the Container
+# How We Are Going to Build the Container
 
-1. Write Code Base:
+### 1. Write Code Base:
 
 - For the project, we wrote some simple Node.js
 
@@ -42,7 +42,7 @@ drwxrwxr-x 6 jonathan jonathan   7 Feb 14 17:14 ../
      8  }
 ```
 
-2. Flow of Docker File
+### 2. Flow of Docker File
 
 ![Flow-Dockerfile.png](:/13992dd7a654426794c0323b30c2d048)
 
@@ -93,13 +93,13 @@ Step 2/3 : RUN npm install
 The command '/bin/sh -c npm install' returned a non-zero code: 127
 ```
 
-3. Docker Build Failed
+### 3. Docker Build Failed
 
 - From the output the build failed because `npm` was not found.
 
 - The issue was caused by our base image being Alpine, which does NOT come with `npm` by default.
 
-4. How to Resolve this Base Image Issue:
+### 4. How to Resolve this Base Image Issue:
 
 - Two options:
 	- We can use a different base image that already has Node and `npm` installed
@@ -120,7 +120,7 @@ RUN npm install
 CMD [ "npm", "start" ]
 ```
 
-5. Now that we resolved the Node issue, we can try building:
+### 5. Now that we resolved the Node issue, we can try building:
 
 - After changing base image, we can run `docker build` again
 
@@ -168,7 +168,7 @@ NOTE: Now we are seeing a different error message about `package.json` missing. 
 npm WARN saveError ENOENT: no such file or directory, open '/package.json'
 ```
 
-6. Copying Build Files:
+### 6. Copying Build Files:
 
 - In the Dockerfile, we can include a `COPY` line that will copy files from your machine to the container build process.
 
@@ -218,7 +218,7 @@ Successfully built 940c0bc22fa9
 Successfully tagged jbarker09/simpleweb:latest
 ```
 
-7. Then Run a Container From Image
+### 7. Then Run a Container From Image
 
 - Now that we have a new build, we can run a new container from the image
 
