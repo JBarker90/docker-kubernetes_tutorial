@@ -4,7 +4,7 @@ FROM node:14-alpine
 WORKDIR /usr/app
 
 # Install some dependencies
-COPY ./ ./
+COPY ./package.json ./
 RUN npm install
 
 # Default command
