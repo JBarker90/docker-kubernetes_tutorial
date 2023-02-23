@@ -1,6 +1,6 @@
-## Specifying a Working Directory
+# Specifying a Working Directory
 
-1. Copying Files to a Nested Directory
+### 1. Copying Files to a Nested Directory
 
 - Earlier when we copied the project files to the container using the Dockerfile, our files were copied to the root directory of the container. 
 
@@ -46,7 +46,7 @@ RUN npm install
 CMD [ "npm", "start" ]
 ```
 
-2. After modifying the working directory, we need to rebuild it
+### 2. After modifying the working directory, we need to rebuild it
 
 - We can run `docker build` again and tag the image name
 
