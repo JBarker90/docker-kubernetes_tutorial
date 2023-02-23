@@ -1,6 +1,6 @@
-## Minimizing Cache Busting and Rebuilds
+# Minimizing Cache Busting and Rebuilds
 
-1. Avoiding Reinstallation of Dependencies
+### 1. Avoiding Reinstallation of Dependencies
 
 - When we changed out working directory, Docker had to reinstall all dependencies. This can be very costly and time consuming in large builds
 
@@ -39,7 +39,7 @@ CMD [ "npm", "start" ]
 docker build -t jbarker09/simpleweb .
 ```
 
-2. Now, let's assume you want to make a change to the `index.js` file
+### 2. Now, let's assume you want to make a change to the `index.js` file
 
 - We can simply change the message to be "How are you doing"
 
