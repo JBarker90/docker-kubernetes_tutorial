@@ -1,10 +1,10 @@
-## Project 2 - App Overview
+# Project 2 - App Overview
 
-1. App Overview
+### 1. App Overview
 
 - The second project will be a simple web application that counts the number of visits to the page.
 
-2. Our goal with Docker
+### 2. Our goal with Docker
 
 - We need to create the Node application in one Docker container and utilize Redis in a second Docker container for scalability.
 
