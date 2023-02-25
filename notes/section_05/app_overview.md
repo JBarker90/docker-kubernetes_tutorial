@@ -10,7 +10,7 @@
 
 
 
-![Project 2-app_env.png](:/9b3dcf49073242d1a01077b2439ada83)
+![Project 2-app_env.png](https://github.com/JBarker90/docker-kubernetes_tutorial/blob/main/notes/section_05/images/Project%202-app_env.png)
 
 - The goal is to keep the application in a seperate container from Redis because we can always scale to add more running containers for the app. 
 
@@ -18,5 +18,5 @@
 
 
 
-![Project 2-app_env(scaled).png](:/b59596be4f9845e68e99d7ff697c5d83)
+![Project 2-app_env(scaled).png](https://github.com/JBarker90/docker-kubernetes_tutorial/blob/main/notes/section_05/images/Project%202-app_env(scaled).png)
 
