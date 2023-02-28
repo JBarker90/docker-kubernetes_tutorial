@@ -1,6 +1,6 @@
-## Assembling a Dockerfile
+# Assembling a Dockerfile
 
-1. This will be very similar to what we did Before
+### 1. This will be very similar to what we did Before
 
 - This Dockerfile will only be for the Node app container
 
@@ -16,7 +16,7 @@ COPY . .
 CMD [ "npm", "start" ]
 ```
 
-2. Then we can build it from the `Dockerfile`
+### 2. Then we can build it from the `Dockerfile`
 
 - We can build it with a tag
 
