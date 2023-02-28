@@ -1,6 +1,6 @@
-## App Server Starter Code
+# App Server Starter Code
 
-1. Starter Code
+### 1. Starter Code
 
 - Created a new project directory called `project-2_visits`
 
