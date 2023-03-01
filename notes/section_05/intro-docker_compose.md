@@ -1,6 +1,6 @@
-## Introducing Docker Compose
+# Introducing Docker Compose
 
-1. What does Docker Compose Accomplish
+### 1. What does Docker Compose Accomplish
 
 - When modifying Docker container networking, using Docker compose is the easiest solution.
 
@@ -10,13 +10,13 @@
 	- Use Docker CLI's Network Features (more of a pain to use)
 	- Use Docker Compose
 
-2. What is Docker Compose
+### 2. What is Docker Compose
 
 - Separate CLI that gets installed along with Docker
 - Used to start up multiple Docker containers at the same time
 - Automates some of the long-winded arguments we were passing to 'docker run'
 
-3. Docker Compose Files
+### 3. Docker Compose Files
 
 - We will be taking various commands like `docker build` or `docker run` and incorporate them into a `docker-compose.yml`
 - Each command will be structured in the file in a YAML format. (NOT copy/pasted)
