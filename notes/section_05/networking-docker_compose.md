@@ -1,6 +1,6 @@
-## Networking with Docker Compose
+# Networking with Docker Compose
 
-1. What does Docker Compose solve
+### 1. What does Docker Compose solve
 
 - Earlier, when we manually created containers Docker would create each container isolated in it's own network.
 	
@@ -8,7 +8,7 @@
 
 - When creating a Docker Compose file, Docker will automatically connect any containers that you specify into the same network. 
 
-2. Connecting our Project to Redis
+### 2. Connecting our Project to Redis
 
 - In the `index.js` file there is a redis client configuration where we can specify the host as 'redis-server'
 
