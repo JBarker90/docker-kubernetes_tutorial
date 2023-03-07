@@ -60,5 +60,5 @@ failed to solve: process "/bin/sh -c npm install" did not complete successfully:
 
 
 
-![Project2-browser_test.png](:/499dbab68b2242708119e926f8c4b6d8)
+![Project2-browser_test.png](https://github.com/JBarker90/docker-kubernetes_tutorial/blob/main/notes/section_05/images/Project2-browser_test.png)
 
