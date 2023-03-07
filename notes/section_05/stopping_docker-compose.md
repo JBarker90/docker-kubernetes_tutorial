@@ -1,6 +1,6 @@
-## Stopping Docker Compose Containers
+# Stopping Docker Compose Containers
 
-1. Containers Running in the Background Starting/Stopping Manually
+### 1. Containers Running in the Background Starting/Stopping Manually
 
 - We can run a container manually in the background using the `-d` flag for detached 
 
@@ -33,7 +33,7 @@ jonathan@dockerhost-03:~$ docker ps
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
-2. Starting/Stopping Containers using Docker Compose
+### 2. Starting/Stopping Containers using Docker Compose
 
 - To launch a container in the background using Docker Compose we can use this command
 
