@@ -1,10 +1,10 @@
-## Container Maintenance with Compose
+# Container Maintenance with Compose
 
-1. Maintaining Docker Containers that Crash
+### 1. Maintaining Docker Containers that Crash
 
 - If something inside the application causes the Docker container to crash there are several things that we can do to mitigate the issue.
 
-2. Showcasing these ways using our `index.js` 
+### 2. Showcasing these ways using our `index.js` 
 
 - We added some code on lines 3 and 13 to force all processes to exit when a user visits the root of the project
 
@@ -86,7 +86,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS        
 0fbf94cb6a24   redis     "docker-entrypoint.s…"   2 minutes ago   Up 2 minutes   6379/tcp   project-2_visits-redis-server-1
 ```
 
-3. How to get Docker compose to restart our Container
+### 3. How to get Docker compose to restart our Container
 
 - Important Note: In our code, we specified for the node application to exit with a status code of 0. This is essentially saying that the Docker container shutting down was intential. However, the process of how we restart containers will be a little based on the error code
 
@@ -156,7 +156,7 @@ b89596477824   project-2_visits-node-app   "docker-entrypoint.s…"   2 minutes 
 0fbf94cb6a24   redis                       "docker-entrypoint.s…"   25 minutes ago   Up 2 minutes   6379/tcp                                    project-2_visits-redis-server-1
 ```
 
-4. Container Status with Docker Compose
+### 4. Container Status with Docker Compose
 
 - In typical Docker CLI, you will use `docker ps` to list actively running containers. 
 - There is a similar Docker compose command that you can use
