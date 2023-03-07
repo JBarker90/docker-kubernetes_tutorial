@@ -1,6 +1,6 @@
-## Docker Compose Commands
+# Docker Compose Commands
 
-1. Commonly Used Commands:
+### 1. Commonly Used Commands:
 
 - Similar to `docker run <myimage>` this is what we can use to start up a docker-compose
 
@@ -23,7 +23,7 @@ docker-compose up --build
 docker compose up --build
 ```
 
-2. Test these commands with our `docker-compose.yml`
+### 2. Test these commands with our `docker-compose.yml`
 
 - Now in our project directory we can start up the container from the docker-compose file
 
