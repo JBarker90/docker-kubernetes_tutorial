@@ -14,7 +14,7 @@
 	- Then, cycles back to Stage 1 (development)
 
 
-![Dev-workflow.png](:/a7532cf26ae14a7aab37d388bb7545b2)
+![Dev-workflow.png](https://github.com/JBarker90/docker-kubernetes_tutorial/blob/main/notes/section_06/images/Dev-workflow.png)
 
 ### 3. Docker's Purpose
 
