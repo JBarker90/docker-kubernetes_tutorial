@@ -1,6 +1,6 @@
 # Project Generation
 
-### 1. What will the project cosist
+### 1. What Will the Project Consist
 
 - This will not have custom code. But it will be a simple React application that we will wrap up in a Docker container
 
