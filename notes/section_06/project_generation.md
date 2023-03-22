@@ -1,6 +1,6 @@
-## Project Generation
+# Project Generation
 
-1. What will the project cosist
+### 1. What will the project cosist
 
 - This will not have custom code. But it will be a simple React application that we will wrap up in a Docker container
 
@@ -15,7 +15,7 @@ v12.22.9
 
 NOTE: If it's not found, you'll need to install it. 
 
-2. Generating React Application
+### 2. Generating React Application
 
 - From the terminal, you can run the following command to generate an application called "frontend"
 
@@ -67,7 +67,7 @@ We suggest that you begin by typing:
 Happy hacking!
 ```
 
-3. Necessary Commands
+### 3. Necessary Commands
 
 - Here are some commands that we should be familiar with during this project
 	- `npm run start` : Starts up a development server. *For development use only*
